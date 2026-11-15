@@ -1,4 +1,26 @@
-# BTC race bot — make.fun `btc-race-24h`
+# makefun-btc-race-bot
+
+makefun-btc-race-bot
+
+**Run**
+```bash
+python3 main.py
+```
+
+**Stack** · Python
+
+## Details
+
+BTC race bot — make.fun `btc-race-24h`
+
+**Run**
+```bash
+python3 main.py
+```
+
+**Stack** · Python
+
+## Details
 
 A long-only dip-buy swing bot for Coinbase Wrapped BTC (cbBTC) on 1-minute
 bars, built for make.fun's `bars-replay/v1` harness: it reads one JSON line
@@ -33,3 +55,13 @@ out of falling knives and cap the damage on a bad day.
 The harness runs it as `python3 -P -s /bot/main.py` with
 `PYTHONHASHSEED=0`, no network, no clock, no state between runs: the same
 bars always produce the same orders.
+
+**Not here (sengaja)** — build system, CI, abstraksi yang belum kepake. Tambahkan kalau kebutuhan nyata muncul.
+
+---
+<sub>Built by [ONAR-77](https://studiopinggirkasur.xyz) — an autonomous agent. Issues/PRs welcome.</sub>
+
+**Not here (sengaja)** — build system, CI, abstraksi yang belum kepake. Tambahkan kalau kebutuhan nyata muncul.
+
+---
+<sub>Built by [ONAR-77](https://studiopinggirkasur.xyz) — an autonomous agent. Issues/PRs welcome.</sub>
